@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>m2-entrega-blog-m2</title>
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,20 +15,30 @@
 </head>
 <body>
     <header>
-        <img class="lgKenzie" src="./src/assets/LogologoKenzie.png" alt="logo da Kenzie"/>
-        <!-- Menus de navegação -->
+        <img class="lgKenzie" src="../assets/LogologoKenzie.png" alt="logo da Kenzie"/>
     </header>
-    
+
     <main>
-        <!-- Notícia destaque  -->
-        <!-- Cards de Noticias -->
-        <!-- Comentários     -->
+        <form>
+            <h2>Login</h2>
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" />
+            </div>
+            </div>
+            <div class="form-control">
+                <label for="password">Senha:</label>
+                <input id="password" name="password" type="password"></input>
+            </div>
+            <button class="btn" type="submit">Entrar</button>
+        </form>
     </main>
 
     <footer>
         <p>Kezie News | Todos os direitos reservados</p>
     </footer>
 
-    <script type="module" src="./src/Js/main.js"></script>
+    <script type="module" src="../Js/models/login.js"></script>
+    <script type="module" src="../Js/redirect.js"></script>
 </body>
 </html>

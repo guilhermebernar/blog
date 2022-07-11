@@ -1,0 +1,48 @@
+html, body {
+    display:flex;
+    min-height:100vh;
+    flex-direction: column;
+}
+
+main{
+    padding: 0 0 120px 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+form h2{
+    padding: 0 0 30px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--fonteSZ04);
+    color: var(--cor3);
+
+}
+
+footer{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor3);
+    border: var(--cor3);
+    height: 2rem;
+    width: 100%;
+    bottom: 0;
+    left: 0
+}
+
+.form-control{
+    font-size: var(--fonteSZ02);
+    font-family: 'Roboto';
+    color: var(--cor3);
+    padding: 0 0 20px 0;
+}
+
+form div input{
+    width: 100%;
+    border: 1px solid var(--cor1);
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px;
+}

@@ -1,0 +1,105 @@
+:root{
+    --cor1      : #FFFFFF;
+    --cor2      : #D7E4FB;
+    --cor3      : #5163D3;
+    --cor4      : #1B1C1E;
+    --fonteSZ01 : 10px;
+    --fonteSZ02 : 12px;
+    --fonteSZ03 : 16px;
+    --fonteSZ04 : 28px;
+    --fonteSZ05 : 36px;
+    --radius    : 4px;
+}
+
+form{
+    padding: 20px 10px 25px 10px;
+}
+
+form input{
+    height: 60px;
+    margin: 20px 0 20px 0;
+    padding: 20px 20px 20px 0;
+    border: 1px solid var(--cor1);
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px;
+    overflow-wrap: break-word;
+}
+
+section{
+    padding: 0 0 30px 0;
+}
+
+.titleComment{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--fonteSZ03);
+    line-height: 110%;
+    color: var(--cor3);
+    padding: 10px 0 10px 0;
+}
+
+.divCards{
+    max-width: 100%;
+}
+
+.cardsComments {
+    max-width:100%;
+    margin: 10px;
+    padding: 20px 20px 20px 0;
+    border: 1px solid var(--cor1);
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px;
+}
+
+.avatar{
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50px;
+}
+
+.divPricipal{
+    padding: 20px 20px 20px 0;
+    border: 1px solid var(--cor1);
+    box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+    border-radius: 4px;
+    max-width: 100%;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 15px 0;
+}
+.divAvatar
+.divUsername
+.divComentario{
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+.divData
+.DivConteudo
+.userName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--fonteSZ03);
+    line-height: 110%;
+    color: var(--cor3);
+    padding: 10px 0 10px 0;
+}
+.comment{
+    white-space: normal;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--fonteSZ02);
+    color: var(--cor4);
+    padding: 0 0 10px 0;
+    overflow-wrap: break-word;
+}
+.postDate{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--fonteSZ02);
+    color: var(--cor4);
+}
